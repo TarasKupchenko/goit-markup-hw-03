@@ -303,12 +303,19 @@ color: var(--color-adress);
 
 /*------------------PORTFOLIO-----------------*/
 /*------------------CATEGORIES-----------------*/
+.categories{
+   padding: 96px 0 120px 0;
+}
 .categories .list{
    flex-wrap: wrap;
    gap: 24px;
+   row-gap: 48px;
+   justify-content: center;
+   margin-bottom: 72px; 
 }
+
 .categories-item{
-   width: calc((100% - 72px)/3);
+   width: calc((100% - 48px)/3);
 }
 .categories-item-text{
    padding: 32px 0 32px 16px;
@@ -325,12 +332,16 @@ text-align: center;
 letter-spacing: 0.04em;
 color: var(--color-logo);
 background-color: var(--portfolio-btn);
+padding: 12px 24px;
+border: 1px solid #e7e9fc;
+border-radius: 4px;
 }
 .cat-btn:hover,
 .cat-btn:focus{
    color: #FFFFFF;
    background-color: #404BBF;
    cursor: pointer;
+   border: 1px solid transparent
 }
 .categories-btn{
    font-family: "Roboto", sans-serif;
