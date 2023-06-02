@@ -39,14 +39,14 @@ body{
    background-color: var(--main-background);
 }
 
-section{
-   padding-left: 15px;
-      padding-right: 15px;
+.section{
+   padding-bottom: 120px;
 }
 
 .contanier{
    width: 1158px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 /*--------------HEADER-------------------*/
 
@@ -173,7 +173,7 @@ margin: 0 auto;
 }
 .benefits{
    padding-top: 120px;
-   padding-bottom: 120px;
+  
 }
 .benefits-tittle{
    font-weight: 500;
@@ -192,7 +192,7 @@ color: var(--subtittle-color);
 
 /*------------------WHAT-----------------*/
 .what{
-   padding-bottom: 120px;
+  
 }
 .what-tittle{
    font-size: 36px;
@@ -212,7 +212,7 @@ padding-bottom: 72px;
 /*------------------TEAM-----------------*/
 .team{
    background-color: #F4F4FD;
-   padding-bottom: 120px;
+   
 }
 .team-tittle {
    font-size: 36px;
@@ -276,6 +276,19 @@ color: var(--color-adress);
 
 /*------------------PORTFOLIO-----------------*/
 /*------------------CATEGORIES-----------------*/
+.categories .list{
+   flex-wrap: wrap;
+   gap: 24px;
+}
+.categories-item{
+   width: calc((100% - 72px)/3);
+}
+.categories-item-text{
+   padding: 32px 0 32px 16px;
+}
+.categories-item-text h2{
+   margin-bottom: 8px;
+}
 .cat-btn{
    font-family: "Roboto", sans-serif;
 font-weight: 500;
