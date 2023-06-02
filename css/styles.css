@@ -276,13 +276,14 @@ color: var(--color-adress);
 /*------------------FOOTER-----------------*/
 .footer {
    background-color: var(--sub-background);
+   padding: 100px 0;
 }
 .footer-container{
    padding-bottom: 100px;
    padding-top: 100px;
 }
 .footer-container a{
-   padding-bottom: 16px;
+   margin-bottom: 16px;
    display: block;
 }
 .footer-container p{
