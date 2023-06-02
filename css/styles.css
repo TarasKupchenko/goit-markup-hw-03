@@ -49,7 +49,7 @@ body{
    padding: 0 15px;
 }
 
-.visually-hidde{
+.visually-hidden{
    position: absolute;
    width: 1px;
    height: 1px;
@@ -201,6 +201,7 @@ font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--subtittle-color);
+margin-bottom: 8px; 
 }
 .benefits-item{
    width: calc((100% - 72px)/4);
