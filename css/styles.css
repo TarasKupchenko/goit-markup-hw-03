@@ -297,6 +297,9 @@ color: var(--color-adress);
    letter-spacing: 0.02em;
    color: var(--footer-text);
 }
+.footer a{
+   display: inline-block;
+}
 
 /*------------------PORTFOLIO-----------------*/
 /*------------------CATEGORIES-----------------*/
