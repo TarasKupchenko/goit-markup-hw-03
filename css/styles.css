@@ -306,6 +306,10 @@ color: var(--color-adress);
 .categories{
    padding: 96px 0 120px 0;
 }
+.categories-container{
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+}
 .categories .list{
    flex-wrap: wrap;
    gap: 24px;
