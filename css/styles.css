@@ -307,8 +307,7 @@ color: var(--color-adress);
    padding: 96px 0 120px 0;
 }
 .categories-container{
-   padding: 32px 16px;
-   border: 1px solid #e7e9fc;
+   
 }
 .categories .list{
    flex-wrap: wrap;
@@ -328,6 +327,8 @@ color: var(--color-adress);
 }
 .categories-item-text h2{
    margin-bottom: 8px;
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
 }
 .cat-btn{
    font-family: "Roboto", sans-serif;
