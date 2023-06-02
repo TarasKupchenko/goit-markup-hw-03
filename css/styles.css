@@ -324,10 +324,11 @@ color: var(--color-adress);
    /*padding: 32px 16px;
    border: 1px solid #e7e9fc;*/
    gap: 24px;
-   border: 1px solid #e7e9fc; 
+   
 }
 .categories-item-text{
    padding: 32px 16px;
+   border: 1px solid #e7e9fc; 
 }
 .categories-item-text h2{
    margin-bottom: 8px;
