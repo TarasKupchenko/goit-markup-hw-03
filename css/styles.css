@@ -73,7 +73,7 @@ body{
 
 .header-cntainer{
    display: flex;
-   padding: 24px 0;
+   
 }
 
 .header-logo {
@@ -109,9 +109,10 @@ body{
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02em;
+   letter-spacing: 0.02em; 
+}
+.list-item-link{
    padding: 24px 0;
-   
 }
 .list-item a{
    color: var(--list-color);
