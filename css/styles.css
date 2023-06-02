@@ -222,7 +222,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--subtittle-color);
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 .what .list{
    gap: 24px;
