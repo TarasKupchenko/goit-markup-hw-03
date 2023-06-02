@@ -40,7 +40,7 @@ body{
 }
 
 .section{
-   padding-bottom: 120px 0;
+   padding-bottom: 120px;
 }
 
 .container {
@@ -233,6 +233,7 @@ margin-bottom: 72px;
 /*------------------TEAM-----------------*/
 .team{
    background-color: #F4F4FD;
+   padding: 120px 0;
    
 }
 .team-tittle {
@@ -242,7 +243,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--subtittle-color);
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 .team .list{
    gap: 24px;
@@ -250,6 +251,7 @@ padding-bottom: 72px;
 .team-list {
    background-color: #FFFFFF;
    width: calc((100% - 72px)/4);
+   border-radius: 0px 0px 4px 4px;
 }
 .team-list-text{
    padding: 32px 16px;
