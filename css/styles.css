@@ -311,9 +311,9 @@ color: var(--color-adress);
 }
 .categories .list{
    flex-wrap: wrap;
-   gap: 24px;
-   
-   row-gap: 48px;
+   gap: 24px 48px;
+   /*column-gap: 24px;
+   row-gap: 48px;*/
    justify-content: center;
    margin-bottom: 72px;
 }
