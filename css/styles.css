@@ -322,6 +322,7 @@ color: var(--color-adress);
    display: flex;
    gap: 48px 24px;
    flex-wrap: wrap;
+   
 }
 .categories-item{
    width: calc((100% - 48px)/3);
