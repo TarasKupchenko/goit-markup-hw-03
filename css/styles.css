@@ -311,13 +311,16 @@ color: var(--color-adress);
 }
 .categories .list{
    flex-wrap: wrap;
-   gap: 48px 24px;
+   gap: 24px;
    /*column-gap: 24px;
    row-gap: 48px;*/
    justify-content: center;
    margin-bottom: 72px;
 }
 
+.portfolio-list{
+   gap: 48px 24px;
+}
 .categories-item{
    width: calc((100% - 48px)/3);
    
